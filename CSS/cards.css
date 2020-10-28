@@ -36,6 +36,11 @@
   margin-bottom: 6.6em;
 }
 
+.Test {
+  padding-bottom: calc(400px - 16px) !important;
+
+}
+
 .material-card2 {
   position: relative;
   height: 0;
@@ -280,6 +285,10 @@
   .material-card.mc-active .mc-content {
     position: relative;
     margin-right: 16px;
+  }
+
+  .Test {
+    padding-bottom: calc(150px - 16px) !important;
   }
 }
 
