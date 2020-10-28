@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CodePen - Batman nav.</title>
+    <title>Workout Info</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
-    <link rel='stylesheet' href='./Test.css'>
+    <link rel='stylesheet' href='./CSS/block-ex.css'>
     <link rel="stylesheet" href="./CSS/cards.css">
 
 </head>
@@ -16,10 +16,10 @@
 <body>
     <!-- partial:index.partial.html -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
-
+    <!--NAVIGATION-->
     <header class="main_h">
 
-        <div class="row">
+        <div class="row-nav">
             <a class="logo" href="#">LOGO</a>
 
             <div class="mobile-toggle">
@@ -40,7 +40,7 @@
         </div> <!-- / row -->
 
     </header>
-
+    <!--HEADER+TITEL-->
     <div class="hero">
 
         <h1><span>Scan It</span><br>Work out</h1>
@@ -51,13 +51,31 @@
 
     </div>
 
-
+    <!--EXERCISES-->
+    <!--ABS-->
     <section class="container">
         <div class="page-header">
-            <h1>Material cards demo<br>
+            <h1>ABS workout<br>
                 <small>Choose what tipe of exercise you want </small></h1>
         </div>
         <div class="row active-with-click">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <article class="material-card Red">
+                    <h2>
+                        <span>ABS</span>
+                        <strong>
+                            <i class="fa fa-fw fa-star"></i>
+                            The Deer Hunter
+                        </strong>
+                    </h2>
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <img class="img-responsive" src="./Sources/Pictures/abs.jpg">
+                        </div>
+                    </div>
+
+                </article>
+            </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <article class="material-card Red">
                     <h2>
@@ -80,9 +98,43 @@
                 </article>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
+                <article class="material-card Red">
+                    <h2>
+                        <span>ABS</span>
+                        <strong>
+                            <i class="fa fa-fw fa-star"></i>
+                            The Deer Hunter
+                        </strong>
+                    </h2>
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <img class="img-responsive" src="./Sources/Pictures/abs.jpg">
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <article class="material-card Red">
+                    <h2>
+                        <span>ABS</span>
+                        <strong>
+                            <i class="fa fa-fw fa-star"></i>
+                            The Deer Hunter
+                        </strong>
+                    </h2>
+                    <div class="mc-content">
+                        <div class="img-container">
+                            <img class="img-responsive" src="./Sources/Pictures/abs.jpg">
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
                 <article class="material-card Pink">
                     <h2>
-                        <span>Sean Penn</span>
+                        <span>LEGS</span>
                         <strong>
                             <i class="fa fa-fw fa-star"></i>
                             Mystic River
@@ -92,18 +144,14 @@
                         <div class="img-container">
                             <img class="img-responsive" src="./Sources/Pictures/abs.jpg">
                         </div>
-                        <div class="mc-description">
-                            He has won two Academy Awards, for his roles in the mystery drama Mystic River (2003) and
-                            the biopic Milk (2008). Penn began his acting career in television with a brief appearance
-                            in a 1974 episode of Little House on the Prairie ...
-                        </div>
+
                     </div>
                 </article>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <article class="material-card Purple">
                     <h2>
-                        <span>Clint Eastwood</span>
+                        <span>BACK</span>
                         <strong>
                             <i class="fa fa-fw fa-star"></i>
                             Million Dollar Baby
@@ -111,32 +159,17 @@
                     </h2>
                     <div class="mc-content">
                         <div class="img-container">
-                            <img class="img-responsive"
-                                src="http://u.lorenzoferrara.net/marlenesco/material-card/thumb-clint-eastwood.jpg">
+                            <img class="img-responsive" src="/Sources/Pictures/abs.jpg">
                         </div>
-                        <div class="mc-description">
-                            He rose to international fame with his role as the Man with No Name in Sergio Leone's
-                            Dollars trilogy of spaghetti Westerns during the 1960s ...
-                        </div>
+
                     </div>
-                    <a class="mc-btn-action">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <div class="mc-footer">
-                        <h4>
-                            Social
-                        </h4>
-                        <a class="fa fa-fw fa-facebook"></a>
-                        <a class="fa fa-fw fa-twitter"></a>
-                        <a class="fa fa-fw fa-linkedin"></a>
-                        <a class="fa fa-fw fa-google-plus"></a>
-                    </div>
+
                 </article>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <article class="material-card Deep-Purple">
                     <h2>
-                        <span>Dustin Hoffman</span>
+                        <span>CHEST</span>
                         <strong>
                             <i class="fa fa-fw fa-star"></i>
                             Kramer vs. Kramer
@@ -144,32 +177,17 @@
                     </h2>
                     <div class="mc-content">
                         <div class="img-container">
-                            <img class="img-responsive"
-                                src="http://u.lorenzoferrara.net/marlenesco/material-card/thumb-dustin-hoffman.jpg">
+                            <img class="img-responsive" src="./Sources/Pictures/abs.jpg">
                         </div>
-                        <div class="mc-description">
-                            He has been known for his versatile portrayals of antiheroes and vulnerable characters.[3]
-                            He won the Academy Award for Kramer vs. Kramer in 1979 ...
-                        </div>
+
                     </div>
-                    <a class="mc-btn-action">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <div class="mc-footer">
-                        <h4>
-                            Social
-                        </h4>
-                        <a class="fa fa-fw fa-facebook"></a>
-                        <a class="fa fa-fw fa-twitter"></a>
-                        <a class="fa fa-fw fa-linkedin"></a>
-                        <a class="fa fa-fw fa-google-plus"></a>
-                    </div>
+
                 </article>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <article class="material-card Indigo">
                     <h2>
-                        <span>Edward Norton</span>
+                        <span>SHOULDERS</span>
                         <strong>
                             <i class="fa fa-fw fa-star"></i>
                             American History X
@@ -177,32 +195,17 @@
                     </h2>
                     <div class="mc-content">
                         <div class="img-container">
-                            <img class="img-responsive"
-                                src="http://u.lorenzoferrara.net/marlenesco/material-card/thumb-edward-norton.jpg">
+                            <img class="img-responsive" src="./Sources/Pictures/abs.jpg">
                         </div>
-                        <div class="mc-description">
-                            He has been nominated for three Academy Awards for his work in the films Primal Fear,
-                            American History X and Birdman. He also starred in other roles ...
-                        </div>
+
                     </div>
-                    <a class="mc-btn-action">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <div class="mc-footer">
-                        <h4>
-                            Social
-                        </h4>
-                        <a class="fa fa-fw fa-facebook"></a>
-                        <a class="fa fa-fw fa-twitter"></a>
-                        <a class="fa fa-fw fa-linkedin"></a>
-                        <a class="fa fa-fw fa-google-plus"></a>
-                    </div>
+
                 </article>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <article class="material-card Blue">
                     <h2>
-                        <span>Michael Caine</span>
+                        <span>MORE</span>
                         <strong>
                             <i class="fa fa-fw fa-star"></i>
                             Educated Rita
@@ -210,32 +213,17 @@
                     </h2>
                     <div class="mc-content">
                         <div class="img-container">
-                            <img class="img-responsive"
-                                src="http://u.lorenzoferrara.net/marlenesco/material-card/thumb-michael-caine.jpg">
+                            <img class="img-responsive" src="./Sources/Pictures/abs.jpg">
                         </div>
-                        <div class="mc-description">
-                            English actor and author. Renowned for his distinctive working class cockney accent, Caine
-                            has appeared in over 115 films and is regarded as a British ...
-                        </div>
+
                     </div>
-                    <a class="mc-btn-action">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <div class="mc-footer">
-                        <h4>
-                            Social
-                        </h4>
-                        <a class="fa fa-fw fa-facebook"></a>
-                        <a class="fa fa-fw fa-twitter"></a>
-                        <a class="fa fa-fw fa-linkedin"></a>
-                        <a class="fa fa-fw fa-google-plus"></a>
-                    </div>
+
                 </article>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <article class="material-card Light-Blue">
                     <h2>
-                        <span>Harvey Keitel</span>
+                        <span>MORE</span>
                         <strong>
                             <i class="fa fa-fw fa-star"></i>
                             Pulp Fiction
@@ -243,32 +231,17 @@
                     </h2>
                     <div class="mc-content">
                         <div class="img-container">
-                            <img class="img-responsive"
-                                src="http://u.lorenzoferrara.net/marlenesco/material-card/thumb-harvey-keitel.jpg">
+                            <img class="img-responsive" src="./Sources/Pictures/abs.jpg">
                         </div>
-                        <div class="mc-description">
-                            Some of his most notable starring roles were in Martin Scorsese's Mean Streets and Taxi
-                            Driver, Ridley Scott's The Duellists and Thelma & Louise, Quentin Tarantino ...
-                        </div>
+
                     </div>
-                    <a class="mc-btn-action">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <div class="mc-footer">
-                        <h4>
-                            Social
-                        </h4>
-                        <a class="fa fa-fw fa-facebook"></a>
-                        <a class="fa fa-fw fa-twitter"></a>
-                        <a class="fa fa-fw fa-linkedin"></a>
-                        <a class="fa fa-fw fa-google-plus"></a>
-                    </div>
+
                 </article>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <article class="material-card Cyan">
                     <h2>
-                        <span>Jack Nicholson</span>
+                        <span>MORE</span>
                         <strong>
                             <i class="fa fa-fw fa-star"></i>
                             The Shining
@@ -276,32 +249,16 @@
                     </h2>
                     <div class="mc-content">
                         <div class="img-container">
-                            <img class="img-responsive"
-                                src="http://u.lorenzoferrara.net/marlenesco/material-card/thumb-jack-nicholson.jpg">
+                            <img class="img-responsive" src="./Sources/Pictures/abs.jpg">
                         </div>
-                        <div class="mc-description">
-                            Throughout his career, Nicholson has portrayed unique and challenging roles, many of which
-                            include dark portrayals of excitable, neurotic and psychopathic characters ...
-                        </div>
-                    </div>
-                    <a class="mc-btn-action">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <div class="mc-footer">
-                        <h4>
-                            Social
-                        </h4>
-                        <a class="fa fa-fw fa-facebook"></a>
-                        <a class="fa fa-fw fa-twitter"></a>
-                        <a class="fa fa-fw fa-linkedin"></a>
-                        <a class="fa fa-fw fa-google-plus"></a>
+
                     </div>
                 </article>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <article class="material-card Teal">
                     <h2>
-                        <span>Jeff Bridges</span>
+                        <span>MORE</span>
                         <strong>
                             <i class="fa fa-fw fa-star"></i>
                             The Big Lebowski
@@ -309,32 +266,18 @@
                     </h2>
                     <div class="mc-content">
                         <div class="img-container">
-                            <img class="img-responsive"
-                                src="http://u.lorenzoferrara.net/marlenesco/material-card/thumb-jeff-bridges.jpg">
+                            <img class="img-responsive" src="./Sources/Pictures/abs.jpg">
                         </div>
-                        <div class="mc-description">
-                            He comes from a well-known acting family and began his televised acting in 1958 as a child
-                            with his father, Lloyd Bridges, and brother, Beau, on television's Sea Hunt ...
-                        </div>
+
                     </div>
-                    <a class="mc-btn-action">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                    <div class="mc-footer">
-                        <h4>
-                            Social
-                        </h4>
-                        <a class="fa fa-fw fa-facebook"></a>
-                        <a class="fa fa-fw fa-twitter"></a>
-                        <a class="fa fa-fw fa-linkedin"></a>
-                        <a class="fa fa-fw fa-google-plus"></a>
-                    </div>
-                </article>
             </div>
 
         </div>
+        <div class="blank"></div>
     </section>
+    <!--Legs-->
 
+    <!--Arms-->
 
     <style>
         .github-corner:hover .octo-arm {
