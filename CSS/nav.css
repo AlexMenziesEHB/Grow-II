@@ -173,7 +173,7 @@ p {
 
 .hero {
     position: relative;
-    background: url(http://srdjanpajdic.com/slike/2.jpg) no-repeat center center fixed;
+    background: #333 url() no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -191,7 +191,7 @@ p {
 }
 
 .hero h1 span {
-    font-size: 55px;
+    font-size: 25px;
     color: #e8f380;
     border-bottom: 2px solid #e8f380;
     padding-bottom: 12px;

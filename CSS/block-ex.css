@@ -130,7 +130,7 @@ h2 .small,
 h2 small,
 h3 .small,
 h3 small {
-    font-size: 65%
+    font-size: 50%
 }
 
 .h4,
@@ -160,7 +160,7 @@ h6 small {
 
 .h1,
 h1 {
-    font-size: 36px
+    font-size: 30px
 }
 
 .h2,
@@ -640,7 +640,7 @@ pre code {
 }
 
 .col-xs-12 {
-    width: 100%
+    width: 50%
 }
 
 .col-xs-11 {
