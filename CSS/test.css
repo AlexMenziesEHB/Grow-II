@@ -8,11 +8,10 @@
     text-shadow: 2px 2px 4px #000000;
     text-align: center;
     font-size: 90px;
-    font-weight: bold;
     position: fixed;
     top: 0;
     width: 100%;
-    transition: 0.2s;
+    transition: 0.5s;
     z-index: 500;
     border-bottom: 10px solid #F44336;
 }
@@ -25,7 +24,7 @@
     #header {
         background: #F44336 url(.) fixed top !important;
         padding: 85px 10px 5px !important;
-        font-size: 30px !important;
+        font-size: 20px !important;
     }
 
     .blank-top {
