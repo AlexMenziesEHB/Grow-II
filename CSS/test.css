@@ -1,0 +1,30 @@
+#header {
+    background: #F44336 url(../Sources/Pictures/abs3.png) fixed top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    padding: 230px 10px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+    z-index: 500;
+    border-bottom: 10px solid #F44336;
+}
+
+.blank-top {
+    height: 550px;
+}
+
+@media only screen and (max-width: 766px) {
+    .blank-top {
+        height: 600px;
+    }
+
+
+}
