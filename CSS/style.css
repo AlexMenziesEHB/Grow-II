@@ -34,6 +34,7 @@
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid gainsboro;
+  box-shadow: 0 1px 50px -2px gray;
 }
 
 .logo {
@@ -176,6 +177,11 @@ p {
   padding: 50px 2% 250px;
 }
 
+.top-color-abs {
+  background-color: #F44336;
+  height: 25px;
+}
+
 .button {
   border: none;
   color: white;
@@ -200,7 +206,7 @@ p {
   background: #333 url(../Sources/Pictures/why-you-should-not-do-that-workout-1199x675.jpg) fixed top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
+  background-size: 100%;
   text-align: center;
   color: #fff;
   padding-top: 110px;
@@ -208,6 +214,15 @@ p {
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif;
 }
+
+.hero-abs {
+
+  background: #333 url(/Sources/Pictures/abs2.png) fixed top;
+
+  background-size: 100%;
+}
+
+
 
 .hero h1 {
   font-size: 50px;
