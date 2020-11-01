@@ -1,5 +1,5 @@
 #header {
-    background: #F44336 url(../Sources/Pictures/abs3.png) fixed top;
+    background: url(../Sources/Pictures/abs3.jpg) center top / cover fixed rgb(244, 67, 54);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
