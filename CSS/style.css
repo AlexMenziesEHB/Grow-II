@@ -220,7 +220,7 @@ p {
   text-align: center;
   color: #fff;
   padding-top: 110px;
-  min-height: 500px;
+  min-height: 700px;
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif;
 }
@@ -230,13 +230,13 @@ p {
 
 
 .hero h1 {
-  font-size: 50px;
+  font-size: 80px;
   line-height: 1.3;
   text-shadow: black 2px 2px;
 }
 
 .hero h1 span {
-  font-size: 25px;
+  font-size: 45px;
   color: #e8f380;
   border-bottom: 2px solid #e8f380;
   padding-bottom: 12px;
