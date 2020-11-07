@@ -32,7 +32,7 @@
 .material-card {
   position: relative;
   height: 0;
-  padding-bottom: calc(100% - 16px);
+  padding-bottom: calc(200px - 16px);
   margin-bottom: 6.6em;
 }
 

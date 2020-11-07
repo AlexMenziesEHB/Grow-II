@@ -1,3 +1,13 @@
+// Sticky Header
+$(window).scroll(function () {
+
+    if ($(window).scrollTop() > 0) {
+        $('.main_h').addClass('sticky');
+    } else {
+        $('.main_h').removeClass('sticky');
+    }
+});
+
 // Mobile Navigation
 $('.mobile-toggle').click(function () {
     if ($('.main_h').hasClass('open-nav')) {

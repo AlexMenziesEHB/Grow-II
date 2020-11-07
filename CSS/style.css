@@ -242,7 +242,7 @@ p {
   background: #333 url(../Sources/Pictures/why-you-should-not-do-that-workout-1199x675.jpg) fixed top no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
+  background-size: cover 700px;
   text-align: center;
   color: #fff;
   padding-top: 110px;
