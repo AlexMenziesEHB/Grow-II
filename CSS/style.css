@@ -309,7 +309,7 @@ p {
 @media only screen and (max-width: 766px) {
   .hero {
     position: relative;
-    background: #333 url(../Sources/Pictures/abs.jpg) fixed;
+    background: #333 fixed;
     background-size: auto 500px;
 
     text-align: center;
