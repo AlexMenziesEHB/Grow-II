@@ -312,7 +312,7 @@ p {
     background: #333 url(../Sources/Pictures/squat.jpg) fixed top no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    height: 100%;
     text-align: center;
     color: #fff;
     padding-top: 80px;
