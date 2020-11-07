@@ -309,8 +309,8 @@ p {
 @media only screen and (max-width: 766px) {
   .hero {
     position: relative;
-    background: #333 fixed;
-    background-size: auto 500px;
+    background: #333 url(../Sources/Pictures/squat.jpg) fixed top;
+    background-size: auto 600px;
 
     text-align: center;
     color: #fff;
