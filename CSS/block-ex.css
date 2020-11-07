@@ -1286,3 +1286,12 @@ pre code {
         margin-left: 0
     }
 }
+
+
+
+
+@media only screen and (max-width: 766px) {
+    .col-xs-12 {
+        width: 100%
+    }
+}
