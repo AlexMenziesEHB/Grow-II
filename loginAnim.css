@@ -18,7 +18,7 @@
 .slider {
   background: #e8f380;
   border-bottom: 100px solid rgb(70, 70, 70);
-  border-top: 100px solid rgb(70, 70, 70);
+  border-top: 10px solid rgb(70, 70, 70);
   position: fixed;
   top: 0;
   left: 0;
