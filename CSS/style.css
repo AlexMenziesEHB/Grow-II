@@ -310,9 +310,8 @@ p {
   .hero {
     position: relative;
     background: #333 url(../Sources/Pictures/squat.jpg) fixed top no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    height: 100%;
+    background-size: auto 100%;
+
     text-align: center;
     color: #fff;
     padding-top: 80px;
