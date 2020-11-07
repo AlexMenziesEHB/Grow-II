@@ -16,7 +16,7 @@
 }
 
 .slider {
-  background: #e8f380;
+  background: rgb(128, 128, 128);
   position: fixed;
   top: 0;
   left: 0;
@@ -45,7 +45,7 @@
 }
 
 .hide {
-  background: rgb(70, 70, 70);
+  background: rgba(70, 70, 70, 0);
   overflow: hidden;
 }
 
