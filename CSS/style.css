@@ -256,18 +256,15 @@ p {
 
 
 .hero h1 {
-  font-size: 80px;
+  font-size: 110px;
   line-height: 1.3;
   text-shadow: black 5px 5px 10px;
 }
 
 .hero h1 span {
-  font-size: 45px;
-  color: #e8f380;
-  border-bottom: 2px solid #e8f380;
+  font-size: 60px;
+  color: white;
   text-shadow: black 5px 5px 10px;
-  padding-bottom: 25px;
-  line-height: 3;
 }
 
 .mouse {
@@ -276,7 +273,7 @@ p {
   width: 26px;
   height: 46px;
   border-radius: 13px;
-  border: 2px solid #e8f380;
+  border: 2px solid #2196F3;
   bottom: 40px;
   position: absolute;
   left: 50%;
@@ -289,7 +286,7 @@ p {
   width: 2px;
   height: 2px;
   border-radius: 4px;
-  background: #e8f380;
+  background: #2196F3;
   border: 1px solid transparent;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -300,6 +297,34 @@ p {
   -webkit-animation-name: scroll;
   animation-name: scroll;
 }
+
+.button-header {
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: transform .2s;
+  box-shadow: black 5px 5px 10px;;
+}
+
+.button-header:hover {
+  transform: scale(1.05);
+}
+
+.button-header-style {
+  background-color: #2196F3;
+  border-radius: 4px;
+}
+
+.button-header a {
+  color: white;
+}
+
 
 .blank {
   width: 100%;
@@ -328,8 +353,6 @@ p {
 
   .hero h1 span {
     font-size: 35px;
-    color: #e8f380;
-    border-bottom: 2px solid #e8f380;
     text-shadow: black 5px 5px 10px;
     padding-bottom: 25px;
     line-height: 3;

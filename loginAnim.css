@@ -16,7 +16,7 @@
 }
 
 .slider {
-  background: #e8f380;
+ background: #2196F3;
   border-bottom: 50px solid rgb(70, 70, 70);
   border-top: 50px solid rgb(70, 70, 70);
   position: fixed;
@@ -30,8 +30,16 @@
 
 .intro h2 {
   color: rgb(233, 233, 233);
+  margin-top: -50px;
+  text-align: center;
   text-transform: uppercase;
-  font-size: 70px;
+  font-size: 30px;
+}
+
+.intro img{
+  width: 150px;
+  padding-top: 100px;
+  padding-bottom: 75px;
 }
 
 @media only screen and (max-width: 766px) {
