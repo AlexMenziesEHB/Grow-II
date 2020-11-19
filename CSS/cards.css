@@ -337,52 +337,23 @@
 }
 
 .material-card.Red h2 {
-  background-color: #F44336;
+  background-color: #5f7c87;
 }
 
 .material-card.Red h2:after {
-  border-top-color: #F44336;
-  border-right-color: #F44336;
+  border-top-color: transparent;
+  border-right-color: transparent;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 
 .material-card.Red h2:before {
   border-top-color: transparent;
-  border-right-color: #B71C1C;
-  border-bottom-color: #B71C1C;
+  border-right-color: #37484e;
+  border-bottom-color: #37484e;
   border-left-color: transparent;
 }
 
-.material-card.Red.mc-active h2:before {
-  border-top-color: transparent;
-  border-right-color: #F44336;
-  border-bottom-color: #F44336;
-  border-left-color: transparent;
-}
-
-.material-card.Red.mc-active h2:after {
-  border-top-color: #B71C1C;
-  border-right-color: #B71C1C;
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-}
-
-.material-card.Red .mc-btn-action {
-  background-color: #F44336;
-}
-
-.material-card.Red .mc-btn-action:hover {
-  background-color: #B71C1C;
-}
-
-.material-card.Red .mc-footer h4 {
-  color: #B71C1C;
-}
-
-.material-card.Red .mc-footer a {
-  background-color: #B71C1C;
-}
 
 .material-card.Red.mc-active .mc-content {
   background-color: #FFEBEE;
@@ -457,48 +428,23 @@
 }
 
 .material-card.Pink h2 {
-  background-color: #E91E63;
+  background-color: #2d3c3f;
 }
 
 .material-card.Pink h2:after {
-  border-top-color: #E91E63;
-  border-right-color: #E91E63;
+  border-top-color: transparent;
+  border-right-color: transparent;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 
 .material-card.Pink h2:before {
   border-top-color: transparent;
-  border-right-color: #880E4F;
-  border-bottom-color: #880E4F;
+  border-right-color: #161d1f;
+  border-bottom-color: #161d1f;
   border-left-color: transparent;
 }
 
-.material-card.Pink.mc-active h2:before {
-  border-top-color: transparent;
-  border-right-color: #E91E63;
-  border-bottom-color: #E91E63;
-  border-left-color: transparent;
-}
-
-.material-card.Pink.mc-active h2:after {
-  border-top-color: #880E4F;
-  border-right-color: #880E4F;
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-}
-
-.material-card.Pink .mc-btn-action {
-  background-color: #E91E63;
-}
-
-.material-card.Pink .mc-btn-action:hover {
-  background-color: #880E4F;
-}
-
-.material-card.Pink .mc-footer h4 {
-  color: #880E4F;
-}
 
 .material-card.Pink .mc-footer a {
   background-color: #880E4F;
@@ -517,53 +463,22 @@
 }
 
 .material-card.Purple h2 {
-  background-color: #9C27B0;
+  background-color: #6ea4c3;
 }
 
 .material-card.Purple h2:after {
-  border-top-color: #9C27B0;
-  border-right-color: #9C27B0;
+  border-top-color: transparent;
+  border-right-color: transparent;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 
 .material-card.Purple h2:before {
   border-top-color: transparent;
-  border-right-color: #4A148C;
-  border-bottom-color: #4A148C;
+  border-right-color: #496c80;
+  border-bottom-color: #496c80;
   border-left-color: transparent;
 }
-
-.material-card.Purple.mc-active h2:before {
-  border-top-color: transparent;
-  border-right-color: #9C27B0;
-  border-bottom-color: #9C27B0;
-  border-left-color: transparent;
-}
-
-.material-card.Purple.mc-active h2:after {
-  border-top-color: #4A148C;
-  border-right-color: #4A148C;
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-}
-
-.material-card.Purple .mc-btn-action {
-  background-color: #9C27B0;
-}
-
-.material-card.Purple .mc-btn-action:hover {
-  background-color: #4A148C;
-}
-
-.material-card.Purple .mc-footer h4 {
-  color: #4A148C;
-}
-
-.material-card.Purple .mc-footer a {
-  background-color: #4A148C;
-}
-
 .material-card.Purple.mc-active .mc-content {
   background-color: #F3E5F5;
 }
@@ -577,20 +492,20 @@
 }
 
 .material-card.Deep-Purple h2 {
-  background-color: #673AB7;
+  background-color: #64a9a9;
 }
 
 .material-card.Deep-Purple h2:after {
-  border-top-color: #673AB7;
-  border-right-color: #673AB7;
+  border-top-color: transparent;
+  border-right-color: transparent;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
 
 .material-card.Deep-Purple h2:before {
   border-top-color: transparent;
-  border-right-color: #311B92;
-  border-bottom-color: #311B92;
+  border-right-color: #3a6161;
+  border-bottom-color: #3a6161;
   border-left-color: transparent;
 }
 

@@ -155,6 +155,10 @@ nav ul a {
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   color: #8f8f8f;
   background: white;
@@ -215,22 +219,22 @@ p {
 
 .button-abs {
   text-decoration: none;
-  color: #F44336;
+  color: #5f7c87;
 }
 
 .button-legs {
   text-decoration: none;
-  color: #E91E63;
+  color: #2d3c3f;
 }
 
 .button-back {
   text-decoration: none;
-  color: #3F51B5;
+  color: #6ea4c3;
 }
 
 .button-chest {
   text-decoration: none;
-  color: #2196F3;
+  color: #3a6161;
 }
 
 
@@ -242,27 +246,27 @@ p {
   background: #333 url(../Sources/Pictures/why-you-should-not-do-that-workout-1199x675.jpg) fixed top no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover 700px;
+  background-size: cover;
   text-align: center;
   color: #fff;
-  padding-top: 110px;
-  min-height: 700px;
-  letter-spacing: 2px;
+  padding-top: 200px;
+  min-height: 99vh;
   font-family: "Montserrat", sans-serif;
 }
 
-
+.hero-text{
+  align-items: center;
+}
 
 
 
 .hero h1 {
-  font-size: 110px;
-  line-height: 1.3;
+  font-size: 130px;
   text-shadow: black 5px 5px 10px;
 }
 
 .hero h1 span {
-  font-size: 60px;
+  font-size: 70px;
   color: white;
   text-shadow: black 5px 5px 10px;
 }
@@ -273,7 +277,7 @@ p {
   width: 26px;
   height: 46px;
   border-radius: 13px;
-  border: 2px solid #2196F3;
+  border: 2px solid white;
   bottom: 40px;
   position: absolute;
   left: 50%;
@@ -317,7 +321,7 @@ p {
 }
 
 .button-header-style {
-  background-color: #2196F3;
+  background-color: #5f7c87;
   border-radius: 4px;
 }
 
@@ -386,5 +390,168 @@ p {
     -webkit-transform: translateY(20px);
     -ms-transform: translateY(20px);
     transform: translateY(20px);
+  }
+}
+
+
+
+/*HOW IT WORKS*/
+.card-title h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.cards-wrapper-color{
+background-color: #5f7c87;
+padding-top: 50px;
+padding-bottom: 50px;
+font-family: "Montserrat", sans-serif;
+}
+.cards-wrapper {
+  background-color: #5f7c87;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  padding: 4rem;
+  margin: 0 auto;
+  width: max-content;
+ 
+}
+
+.card-how {
+  --bg-filter-opacity: 0.5;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, var(--bg-filter-opacity)),
+      rgba(0, 0, 0, var(--bg-filter-opacity))
+    ),
+    var(--bg-img);
+  height: 10em;
+  width: 15em;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 10px;
+  padding: 1em;
+  /*margin: 2em;*/
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 3em -1em black;
+  transition: all, var(--transition-time);
+  position: relative;
+  overflow: hidden;
+  border: 10px solid #ccc;
+  text-decoration: none;
+}
+
+.card-how h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.card-how p {
+  font-size: 0.75em;
+  margin-top: 0.5em;
+  line-height: 2em;
+}
+
+.card-how .tags {
+  display: flex;
+}
+
+.card-how .tags .tag {
+  font-size: 0.75em;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0.3rem;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  line-height: 1.5em;
+  transition: all, var(--transition-time);
+}
+
+.card-how .date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75em;
+  padding: 1em;
+  line-height: 1em;
+  opacity: 0.8;
+}
+
+.num span{
+  background-color: white;
+  color: #5f7c87;
+  padding: 5px 9px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+
+.card-grid-space .num {
+  font-size: 30px;
+  margin-bottom: 1.2rem;
+  margin-left: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.info {
+  font-size: 1.2em;
+  display: flex;
+  padding: 1em 3em;
+  height: 3em;
+}
+
+.info img {
+  height: 3em;
+  margin-right: 0.5em;
+}
+
+.info h1 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1285px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .info {
+    justify-content: center;
+  }
+  .card-grid-space .num {
+    /margin-left: 0;
+    /text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards-wrapper {
+    padding: 4rem 2rem;
+  }
+  .card {
+    max-width: calc(100vw - 4rem);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .info h1 {
+    margin: 0;
   }
 }
